@@ -1,0 +1,391 @@
+#login_box{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+.left_box{
+  height: 100%;
+  width: 40%;
+
+  background-color: #00ac6a;
+}
+.choose_box{
+  height: 600px;
+  width: 500px;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  margin-top: -300px;
+  left: 25%;
+  z-index: 20;
+
+}
+.choose_box img{
+height: 100%;
+width: 100%;
+z-index: 10;
+}
+.choose_box_center{
+  height: 600px;
+  width: 500px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: white;
+  z-index: 10;
+
+  
+  h1{
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  p{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+}
+.login_form_box{
+  height: 602px;
+  width: 1000px;
+  // border: 2px solid red;
+  position: absolute;
+  top: 50%;
+  margin-top: -301px;
+  left: 25%;
+}
+.theCustomer_login_btn{
+  height: 50px;
+  width: 200px; 
+  border: 2px solid rgb(175, 170, 170);
+  position: absolute;
+  top: 200px;
+  left: 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 宋体;
+  background-color:rgba( 0,0,0, 0.1);
+}
+
+.theCustomer_login_btn:hover{
+  border-color: white;
+}
+.theCook_login_btn:hover{
+  border-color: white;
+}
+
+.theCook_login_btn{
+  height: 50px;
+  width: 200px;
+  position: absolute;
+  top:300px;
+  left: 20px;
+  border: 2px solid rgb(175, 170, 170);
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 宋体;
+  background-color:rgba( 0,0,0, 0.1);
+}
+.xiaosanjiao{
+  height: 0px;
+  width: 0px;
+  border-width: 16px;
+  border-style: solid;
+  border-color: rgba( 0,0,0, 0) white rgba( 0,0,0, 0) rgba( 0,0,0, 0);
+  position: absolute;
+  right: 0;
+}
+.theCustomer_login_box{
+ height: 500px;
+ width: 0px;
+ transition: all 0.5s ease-in-out;
+
+ position: absolute;
+ top: 250px;
+ left: 1000px;
+ border:2px solid rgb(192, 189, 189);
+// background-color: #00ac6a;
+ border-left: 0px;
+}
+
+.theCook_login_box{
+  height: 500px;
+  width: 0px;
+  transition: all 0.5s ease-in-out;
+ 
+  position: absolute;
+  top: 250px;
+  left: 1000px;
+  border:2px solid rgb(224, 36, 36);
+  // background-color: rebeccapurple;
+  border-left: 0px;
+ }
+ .registered_btn{
+   height: 30px;
+   width: 100px;
+   border: 0px solid white;
+   background-color: rgba( 0,0,0, 0.1);
+   font-size: 20px;
+   color: white;
+   position: absolute;
+   bottom: 10px;
+   right: 10px;
+ 
+ }
+ .registered_btn:hover{
+  border: 2px solid #00ac6a;
+  
+
+ }
+ .login_page{
+  height: 500px ;
+  width: 400px;
+  // background-color: #00ac6a;
+  // border: 5px solid red;
+  position: absolute;
+  top: 50px;
+  
+  // margin-left: -500px;
+
+
+  transition: all 0.8s ease-in-out;
+
+  
+
+ }
+ .login_page p:first-child{
+  font-size: 20px;
+  position: absolute;
+  left: 0px;
+  color:rgb(34, 33, 33) ;
+  font-family: 宋体;
+  font-weight: 700;
+
+
+
+ }
+
+//  .cook_login_page{
+//   height: 400px ;
+//   width: 400px;
+//   // background-color: #00ac6a;
+//   // border: 5px solid red;
+//   position: absolute;
+//   top: 300px;
+//   left: 500px;
+//   z-index: 0;
+//   transition: all 0.5s ease-in-out;
+
+  
+
+//  }
+//  .cook_login_page p:first-child{
+//   font-size: 25px;
+//   position: absolute;
+//   left: 0px;
+//   color:rgb(34, 33, 33) ;
+//   font-family: 宋体;
+//   font-weight: 700;
+
+
+
+//  }
+ .username_input{
+  height: 40px;
+  width: 400px;
+  border: 0;
+  outline: none;
+  border-bottom: 2px solid rgb(230, 227, 227);
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  font-size: 15px;
+  padding: 0px;
+  
+
+ }
+
+ .password_p{
+  font-size: 20px;
+  position: absolute;
+  left: 0px;
+  color:rgb(34, 33, 33) ;
+  font-family: 宋体;
+  font-weight: 700;
+  top: 120px;
+
+ }
+ .password_input{
+  height: 40px;
+  width: 400px;
+  border: 0;
+  outline: none;
+  border-bottom: 2px solid rgb(230, 227, 227);
+  position: absolute;
+  top: 160px;
+  left: 0px;
+  font-size: 15px;
+  padding: 0px;
+
+ }
+ .forgetPassword_btn{
+  height: 30px;
+  width: 80px;
+  text-align: right;
+  border: 0px;
+  background-color: rgba( 0,0,0, 0);
+  position: absolute;
+  right: 0px;
+  bottom: 100px;
+  color: #20b2cc;
+ }
+ .forgetPassword_btn:hover{
+  color: #088fa7;
+  
+}
+ .login_btn{
+  height: 50px;
+  width: 400px;
+  background-color: #00ac6a;
+  position: absolute;
+  bottom: 20px;
+  border: 1px solid #00ac6a;
+  border-radius: 12px;
+  color: white;
+  font-size: 20px;
+ 
+
+ }
+ .login_btn:hover{
+  background-color: #02a567;
+ }
+ .VerificationCode_box{
+  height: 100px;
+  width: 400px;
+  position: absolute;
+  bottom: 150px;
+  left:0px;
+  // background-color: #00ac6a;
+ }
+
+.code_p{
+  font-size: 20px;
+  position: absolute;
+  left: 0px;
+  color:rgb(34, 33, 33) ;
+  font-family: 宋体;
+  font-weight: 700;
+  
+}
+.code_input{
+
+  height: 40px;
+  width: 280px;
+  border: 0;
+  outline: none;
+  border-bottom: 2px solid rgb(230, 227, 227);
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  font-size: 15px;
+  padding: 0px;
+}
+.gteCode_box{
+  height: 40px;
+  width: 100px;
+  border: 1px solid  #20b2cc;
+  position: absolute;
+  right: 0px;
+  top:40px;
+}
+.gteCode_box2{
+  height: 40px;
+  width: 100px;
+  border: 1px solid  #20b2cc;
+  position: absolute;
+  right: 0px;
+  top:0px;
+}
+.gteCode_box3{
+  height: 40px;
+  width: 100px;
+  border: 1px solid  #20b2cc;
+  position: absolute;
+  right: 0px;
+  top:0px;
+  text-align: center;
+  line-height: 40px;
+  button{
+    font-size: 10px;
+    color: white;
+    font-weight: 700;
+    background-color: rgba( 0,0,0, 0);
+    border: 0px;
+    
+  }
+}
+.gteCode_box p:first-child{
+  position: absolute;
+  font-size: 25px;
+  line-height: 40px;
+  left: 10px;
+  
+  
+}
+.gteCode_box p:nth-child(2){
+  position: absolute;
+  font-size: 25px;
+  line-height: 40px;
+  left: 25px;
+}
+.gteCode_box p:nth-child(3){
+  position: absolute;
+  font-size: 25px;
+  line-height: 40px;
+  left: 43px;
+}
+.gteCode_box p:nth-child(4){
+  position: absolute;
+  font-size: 25px;
+  line-height: 40px;
+  left: 60px;
+}
+.gteCode_box p:nth-child(5){
+  position: absolute;
+  font-size: 25px;
+  line-height: 40px;
+  left: 75px;
+}
+
+.username_error{
+  position: absolute;
+  top: 85px;
+  font-size: 14px;
+  color: red;
+}
+.password_error{
+  position: absolute;
+  top: 205px;
+  font-size: 14px;
+  color: red;
+}
+.code_error{
+  position: absolute;
+  top:90px;
+  font-size: 14px;
+  color: red;
+}
+.register_btn{
+  // border: 0px;
+  // background-color: rgba( 0,0,0, 0);
+  position: absolute;
+   bottom: -10px;
+   left: 130px;
+  //  color: #20b2cc;
+}
+// .register_btn:hover{
+//   color: #088fa7;
+// }
